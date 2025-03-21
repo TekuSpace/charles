@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Charles Isaya</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+    }
+    .navbar {
+      background-color: #007bff !important;
+    }
+    .navbar-brand, .nav-link {
+      color: #fff !important;
+    }
+    .contact-section {
+      padding: 80px 0;
+    }
+    .contact-section h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .contact-info {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+    }
+    .contact-info h3 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .contact-info p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+    .contact-info a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    .contact-form {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .contact-form .form-control {
+      margin-bottom: 20px;
+    }
+    .contact-form .btn {
+      background-color: #007bff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.1rem;
+    }
+    .contact-form .btn:hover {
+      background-color: #0056b3;
+    }
+    .social-links {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .social-links a {
+      color: #007bff;
+      font-size: 1.5rem;
+      margin: 0 10px;
+      transition: color 0.3s ease;
+    }
+    .social-links a:hover {
+      color: #0056b3;
+    }
+    .footer {
+      background-color: #007bff;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Charles Isaya</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="research.html">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="teaching.html">Teaching</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <div class="row">
+        <!-- Contact Info -->
+        <div class="col-md-6">
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>If you have any questions or would like to collaborate, feel free to reach out to me. I'm always open to new opportunities and discussions.</p>
+            <p><strong>Email:</strong> <a href="mailto:charles.isaya@must.ac.tz">charles.isaya@must.ac.tz</a></p>
+            <p><strong>Phone:</strong> +255 620 476 681</p>
+            <p><strong>Address:</strong> Mbeya University of Science and Technology (MUST), Mbeya, Tanzania</p>
+          </div>
+        </div>
+        <!-- Contact Form -->
+        <div class="col-md-6">
+          <div class="contact-form">
+            <h3>Send a Message</h3>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Social Links -->
+      <div class="social-links">
+        <a href="https://linkedin.com/in/charles-isaya" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://twitter.com/charles_isaya" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://github.com/charlesisaya" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://facebook.com/charles.isaya" target="_blank"><i class="fa fa-facebook"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Charles Isaya. All Rights Reserved.</p>
+      <p>Designed by  Boniface M</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
